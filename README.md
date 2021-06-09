@@ -1,1 +1,1 @@
-puthon 飞机大战练习
+python 飞机大战练习
