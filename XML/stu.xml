@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- xml首行语法定义/声明 -->
+<!-- 根节点,有且只有一个 -->
+<people> <!-- 元素，标签 -->
+    <!-- 子节点 -->
+    <person>
+        <name>王三</name> <!-- 获取文本标签 -->
+        <age>18</age>
+    </person>
+    <person>
+        <name>李四</name>
+        <age>24</age>
+    </person>
+
+</people>
+
+

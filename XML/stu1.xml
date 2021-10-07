@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<people>
+    <persion name="小刚" age="15"></persion> 获取标签的属性
+    <persion name="小明" age="25"></persion>
+</people>

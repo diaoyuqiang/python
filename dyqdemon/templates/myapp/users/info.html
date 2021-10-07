@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>users</title>
+</head>
+<body>
+    <center>
+        <h2>用户信息管理</h2>
+        <!-- url反向解析-->
+        <a href="{% url 'index_users' %}">浏览信息</a>
+        <a href="{% url 'add_users' %}">添加信息</a>
+        <hr/>
+
+        <h4>操作提示信息</h4>
+        <h5>{{ info }}</h5>
+    </center>
+
+</body>
+</html>

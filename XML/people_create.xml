@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<people id="people">
+    <person>
+        <name no="1001">张三</name>
+        <sex>男</sex>
+    </person>
+    <person>
+        <name no="1002">李四</name>
+        <sex>男</sex>
+    </person>
+</people>

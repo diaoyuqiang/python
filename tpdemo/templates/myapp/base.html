@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- 模板预留块block -->
+    <title>{% block title %}父模{% endblock %}</title>
+</head>
+<body>
+    <h2>{% block title1 %}父模板标题{% endblock %}</h2>
+    <p>
+        {% block mycontext %}
+        此处预留内容区域
+        {% endblock %}
+    </p>
+
+</body>
+</html>

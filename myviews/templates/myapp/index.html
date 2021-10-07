@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django视图层</title>
+</head>
+<body>
+    <h2>Django视图层</h2>
+    <ul>
+        <!-- 通过urls中path的name反向解析路径 -->
+        <li><a href="{% url 'resp01' %}">一个简单的视图响应</a></li>
+        <li><a href="{% url 'resp02' %}">返回一个错误</a></li>
+        <li><a href="{% url 'resp03' %}">重定向</a></li>
+        <li><a href="{% url 'resp04' %}">基于类的视图</a></li>
+        <li><a href="{% url 'resp05' %}">响应json数据格式</a></li>
+        <li><a href="{% url 'resp07' %}">cookie的使用</a></li>
+        <li><a href="{% url 'resp08' %}?id=3&age=10">测试res请求对象</a></li>
+        <li><a href="{% url 'resp09' %}">验证码的输出</a></li>
+    </ul>
+    <img id='resp09' src="{% url 'resp09' %}" alt="CheckCode"/>
+
+</body>
+</html>

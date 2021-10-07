@@ -1,2 +1,1 @@
-# python
-python学习
+# python web练习

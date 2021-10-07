@@ -1,0 +1,61 @@
+syntax = "proto3";  // 语法
+package  test;  // 包名
+
+service Bilbil{  // 服务名
+  rpc HelloDyq(HelloDyqReq) returns (HelloDyqReply){}  // 函数名（request参数,response参数）
+  //rpc HelloTest(stream HelloTestReq) returns (stream HelloTestReply){}
+  rpc HelloBoyCli(HelloBoyCliReq) returns (stream HelloBoyCliReply){}
+  rpc HelloSend(stream HelloSendReq) returns (HelloSendReply){}
+  rpc TestTwoWays(stream TestTwoWaysReq) returns (stream TestTwoWaysResponse){}
+}
+// unary 单个传输
+// stream 长连接的流传输（1.双向流 2.单向流）
+
+message HelloDyqReq{
+  string name = 1;
+  int32 age = 2;  // int32 整型
+}
+
+message HelloDyqReply{
+  int32 code = 1;
+  string msg = 2;
+  string result = 3;
+}
+
+message HelloTestReq{
+  string name = 1;
+  int64 age = 2;
+  repeated string data = 3;  // 元组类型
+  message HelloTestReqNumValues{  // 消息体内value多种类型定义
+    string name = 1;
+    int32 age = 2;
+    bool is_active = 3;
+  }
+  map<string,HelloTestReqNumValues> num = 4;  // 字典类型 value可以有多种类型(string,int32,bool)
+}
+
+message HelloTestReply{}
+
+// python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. hello_bilbil.proto  在当前目录下生成grpc的python脚本
+message HelloBoyCliReq{
+  string data = 1;
+}
+message HelloBoyCliReply{
+  string result = 1;
+}
+
+message HelloSendReq{
+  string data = 1;
+}
+
+message HelloSendReply{
+  string result = 1;
+}
+
+message TestTwoWaysReq{
+  string data = 1;
+}
+
+message TestTwoWaysResponse{
+  string result = 1;
+}

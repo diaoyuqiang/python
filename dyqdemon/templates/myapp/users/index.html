@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>users</title>
+    <script>
+            // 自定义执行信息删除提示判断，参数uu是成功的删除url地址
+            function doDel(uu){
+                if(confirm("确定要删除吗？")){
+                    // 网页跳转
+                    window.location=uu;
+                }
+            }
+
+    </script>
+</head>
+<body>
+    <center>
+        <h2>用户信息管理</h2>
+        <!-- url反向解析-->
+        <a href="{% url 'index_users' %}">浏览信息</a>
+        <a href="{% url 'add_users' %}">添加信息</a>
+        <hr/>
+
+        <h4>浏览用户信息</h4>
+        <table width="800" border="1">
+            <tr>
+                <th>ID号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>电话</th>
+                <th>添加时间</th>
+                <th>操作</th>
+            </tr>
+            <!-- 添加动态数据-->
+            {% for user in users_list %}
+                <tr>
+                    <td>{{user.id}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.age}}</td>
+                    <td>{{user.phone}}</td>
+                    <td>{{user.create_time}}</td>
+                    <td>
+                        <a href="{% url 'edit_users' user.id %}">编辑</a>
+                        <a href="javascript:doDel('{% url 'del_users' user.id %}');">删除</a></td>
+
+                </tr>
+            {% endfor %}
+        </table>
+    </center>
+
+</body>
+</html>
