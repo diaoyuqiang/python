@@ -5,7 +5,7 @@ class A:
 class B(A):
     pass
 
-# isinstance(object, classinfo) 相当于type(),区别：isinstance考虑类的继承。 object类型等于classinfo 返回True，否 False
+# isinstance(object, type) 相当于type(),区别：isinstance考虑类的继承。 obj类型等于type 返回True，否 False
 # print(isinstance(B(), A)) True
 
 

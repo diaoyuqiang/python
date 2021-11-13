@@ -7,7 +7,7 @@ def decorator(func):
     @functools.wraps(func)  # wraps()装饰函数
     def pack():
         if random.randint(1, 10) <= 5:
-            func()  # 真实函数的调用
+            return func()  # 真实函数的调用
         else:
             print("运气不佳。")
     return pack  # 返回闭包函数

@@ -1,5 +1,6 @@
 import pickle  # 序列化模块
 import json
+import msgpack  # 序列化模块，比json速度快，长度小
 
 p = {"name": "小明", "age": "18"}
 
@@ -22,9 +23,21 @@ print(p)
 
 # json格式序列化
 p = {"first": "tom", "last": "杰克"}
-print(json.dumps(p))
+print(json.dumps(p))  # print(json.dumps(p, ensure_ascii=False)): 输出中文
 
 jms = json.dumps(p)
 # json格式反序列化
 print(json.loads(jms))
 
+
+var = {'a': 'this',
+       'b': 'is',
+       'c': 'a test'
+}
+
+with open('data.txt', 'wb') as f1:
+    msgpack.dump(var, f1)  # 序列化存储数据
+
+with open('data.txt', 'rb') as f2:
+    var = msgpack.load(f2, use_list=True)  # 反序列化读取数据
+print(var)

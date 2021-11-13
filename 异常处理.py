@@ -9,6 +9,23 @@ def temp_convert(var):
 num = temp_convert("x")
 print(num)
 
+# raise 抛出异常
+def num(level):
+    global a
+
+    try:
+        a = int(level)
+        print(a)
+
+    except Exception as e:
+        a = 'None'
+        return a
+
+
+val = data = num('abc')
+print(val)
+    
+
 # finally 无论如何都会执行的代码
 try:
     fw = open(r"textfile.txt", "w", encoding="utf-8")

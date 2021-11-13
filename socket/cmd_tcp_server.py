@@ -11,7 +11,7 @@ cmd_server = socket(AF_INET, SOCK_STREAM)
 cmd_server.bind(ip_port)
 # 声明最大连接数
 cmd_server.listen(back_log)
-# 外层循环，链接循环
+# 外层循环，连接循环
 while True:
     conn, add = cmd_server.accept()  # 得到一个持续的链接和客户端地址
     # 内层循环，通信循环 保持与客户端的长久通信
