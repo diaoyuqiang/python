@@ -20,9 +20,9 @@ class SerialReadWrite(object):
         """
         import traceback
         info = traceback.extract_stack()  # 从当前堆栈中获取异常回溯
-        if cls._instance:  # 类变量有值返回
+        if cls._instance:  # 判断是否有实例
             return cls._instance
         else:
             with cls.lock:  # 加锁
-                cls._instance = super(SerialReadWrite, cls).__new__(cls)  # 将类的实例绑定到类变量_instance上
+                cls._instance = super(SerialReadWrite, cls).__new__(cls)  # 将类的实例绑定到类属性_instance上
                 return cls._instance

@@ -23,6 +23,7 @@ print(p)
 
 # json格式序列化
 p = {"first": "tom", "last": "杰克"}
+# json.dumps 序列化时对中文默认使用的ascii编码
 print(json.dumps(p))  # print(json.dumps(p, ensure_ascii=False)): 输出中文
 
 jms = json.dumps(p)
