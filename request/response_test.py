@@ -20,8 +20,8 @@ response = requests.get('http://mirrors.sohu.com/')
 print(response.content)
 
 # 反序列化json格式为python对象
-response = requests.post("http://httpbin.org/post", data={1: 1, 2: 2})
+response = requests.post("http://httpbin.org/post", data={1: 1, 2: 2}).json().get('form').get('1')
 # a = json.loads(response.content.decode())
 # print(a)
-obj = response.json()
-print(obj['form']['1'])
+
+print(response)

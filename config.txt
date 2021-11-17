@@ -1,0 +1,12 @@
+# IP地址
+ip=10.10.1.5
+port=9090
+
+# 串口配置
+serial_port_name=/dev/ttsy1
+
+
+serial_baudrate=9000
+
+
+
