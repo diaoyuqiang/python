@@ -11,7 +11,7 @@ def f(url):
     print('获取网站 %s的字节长度为：%s' % (url, len(data)))
 
 
-# 多进程并行
+# 多进程并发
 gevent.joinall([
         gevent.spawn(f, 'https://docs.python.org/zh-cn/3/'),
         gevent.spawn(f, 'https://www.ctrip.com/'),
