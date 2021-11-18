@@ -1,3 +1,4 @@
+# encoding=utf-8
 # 迭代器、生成器、可迭代对象 详解见视频：https://www.bilibili.com/video/BV1BT4y1P7nn?from=search&seid=10353610141994125966
 # 0到100偶数列表
 li = [i for i in range(0, 101) if i % 2 ==0]
