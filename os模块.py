@@ -6,13 +6,14 @@ from os import getenv
 # print(e.get("path"))
 
 # 查看、创建、删除目录
-print(os.listdir(r"E:\pythonjob\pythonProject"))  # 查看指定目录下的文件,返回文件列表
+print(os.listdir(r"D:\python_stu\lock"))  # 查看指定目录下的文件,返回文件列表
 # os.mkdir(r"E:\pythonjob\pythonProject\test")  # 创建目录
 # if os.path.exists(r"E:\pythonjob\pythonProject\test"):
 #     os.rmdir(r"E:\pythonjob\pythonProject\test")  # 删除指定的目录
 
 # 查看文件路径
-print(os.path.split(r"E:\pythonjob\pythonProject\learn\函数\_open.py"))  # 获取路径和文件的元祖
+print(os.path.exists(r'D:\python_stu\lock\lock_test.py'))  # 判断文件是否存在
+print(os.path.split(r"D:\python_stu\lock\lock_test.py"))  # 获取路径和文件的元祖
 print(os.path.abspath(__file__))  # 查看此文件的绝对路径
 
 # 重命名文件
@@ -21,4 +22,4 @@ print(os.path.abspath(__file__))  # 查看此文件的绝对路径
 # os.remove("_list.py")
 
 # 复制文件
-os.system("copy _list.py list1.py")  # 给出复制提示
+os.system("copy 1.txt test.txt")  # 给出复制提示

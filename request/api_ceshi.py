@@ -1,7 +1,7 @@
 import requests
 import pprint
 
-# # 传递url参数的方式
+# # 传递url请求参数的方式
 # paras = {
 #     'wd': 'iphone',
 #     'rsv+spt': '1'
