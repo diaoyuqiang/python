@@ -12,5 +12,5 @@ for x in itertools.permutations([1, 2, 3, 4], 3):
     print(x)
 
 # 重复序列中的元素
-for c in itertools.cycle('abc'):
-    print(c)
+# for c in itertools.cycle('abc'):
+#     print(c)

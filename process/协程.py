@@ -1,4 +1,4 @@
-import gevent  # 携程
+import gevent  # 协程
 import requests, time
 
 start = time.time()

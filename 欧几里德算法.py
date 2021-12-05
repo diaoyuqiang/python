@@ -24,7 +24,7 @@ def gcd(a, b):
 
 
 if __name__ == "__main__":
-    print(gcd(5, 2))
+    print(gcd(5, 3))
 
 
 

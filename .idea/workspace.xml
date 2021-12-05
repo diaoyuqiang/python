@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68186bc5-58de-4b41-910e-0ff969429fc1" name="Changes" comment="dyq">
-      <change afterPath="$PROJECT_DIR$/itertools内置库.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exgcd_求逆元.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_stu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_stu.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/os模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/os模块.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pick.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pick.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/api_ceshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/request/api_ceshi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.py" beforeDir="false" afterPath="$PROJECT_DIR$/12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/datetime_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itertools内置库.py" beforeDir="false" afterPath="$PROJECT_DIR$/itertools内置库.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myweb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myweb/myweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/myweb/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process/协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/协程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/欧几里德算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/欧几里德算法.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -56,10 +78,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.itertools内置库">
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.exgcd_求逆元">
+    <configuration name="协程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,12 +91,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gRPC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gRPC/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/协程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contextlib上下文管理器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/contextlib上下文管理器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_jsonify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="欧几里德算法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +140,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_jsonify.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/欧几里德算法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="itertools内置库" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exgcd_求逆元" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +162,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/itertools内置库.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exgcd_求逆元.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="property_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +179,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gRPC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gRPC/service.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/property_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.itertools内置库" />
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.service" />
-        <item itemvalue="Python.contextlib上下文管理器" />
-        <item itemvalue="Python.flask_jsonify" />
+        <item itemvalue="Python.exgcd_求逆元" />
+        <item itemvalue="Python.欧几里德算法" />
+        <item itemvalue="Python.12" />
+        <item itemvalue="Python.协程" />
+        <item itemvalue="Python.property_test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +211,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635835128791</updated>
-      <workItem from="1638693664246" duration="624000" />
+      <workItem from="1638693664246" duration="2570000" />
+      <workItem from="1639537344763" duration="14387000" />
+      <workItem from="1639623578103" duration="5716000" />
+      <workItem from="1639707762544" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;测试1&quot;">
       <created>1635835443789</created>
@@ -315,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637229045573</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="dyq">
+      <created>1638694298348</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1638694298348</updated>
+    </task>
+    <task id="LOCAL-00020" summary="dyq">
+      <created>1638694332901</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638694332901</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +383,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="dyq" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_stu$itertools.coverage" NAME="itertools内置库 Coverage Results" MODIFIED="1638694260316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$12.coverage" NAME="12 Coverage Results" MODIFIED="1639644979607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$property_test.coverage" NAME="property_test Coverage Results" MODIFIED="1639561409656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="欧几里德算法 Coverage Results" MODIFIED="1639719132471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$exgcd_.coverage" NAME="exgcd_求逆元 Coverage Results" MODIFIED="1639722443915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$itertools.coverage" NAME="itertools内置库 Coverage Results" MODIFIED="1638695903965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
