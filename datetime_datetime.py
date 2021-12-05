@@ -23,8 +23,8 @@ print(rq)
 dt = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
 print(dt, type(dt))
 # 字符串转日期
-dt = datetime.strptime("2021-10-08 10:34:38", "%Y-%m-%d %H:%M:%S")
-print(dt)
+dt = datetime.strptime("2021-10-08 10:34:38", "%Y-%m-%d %H:%M:%S").date()
+print(dt) # 2021-10-08
 
 # 分别获取日期和时间
 dt = datetime.today().date()

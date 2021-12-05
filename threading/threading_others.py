@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # t.setName("我是线程1")  # 设置线程名称
     # print(t.getName())
 
-    print(threading.enumerate())  # 返回线程列表
+    print(threading.enumerate())  # 返回正在运行的线程列表
     print(threading.currentThread().name)  # 返回当前线程名称
     print(threading.get_ident())  # 返回线程id
     print(threading.active_count())  # 查看正在运行的线程数量

@@ -32,7 +32,7 @@ while True:
             stdout=None(标准输出)
             """
 
-            # 执行指定
+            # 执行指令
             cmb_result = subprocess.Popen(cmd.decode("utf-8"), shell=True,
                                           stderr=subprocess.PIPE,
                                           stdin=subprocess.PIPE,
