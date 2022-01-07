@@ -23,3 +23,7 @@ print(np.matrix(np.array([[1,2],
 #
 # d = np.linspace(1, 10, 6).reshape((2, 3))  # 1-10平均分段6份，输出两行三列的数组
 # print(d)
+a = np.matrix(np.array([[1,2],
+                [3, 4]])).I
+
+print(np.sqrt(array))

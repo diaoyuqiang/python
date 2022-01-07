@@ -12,3 +12,7 @@ print(t)
 # 时间对象格式化字符串
 t = time(8, 20, 30).strftime("%H:%M:%S")
 print(t, type(t))
+
+# %F: 年月日 %f:微妙[0,999999]
+s = datetime.datetime.now().strftime("%F %H:%M:%S,%f")[:-3]  # 微妙保留3位
+print(s)

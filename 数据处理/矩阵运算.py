@@ -19,8 +19,10 @@ print(b)
 print('*' * 50)
 # c = a * b  # 元素相乘
 c_dot = a.dot(b)  # 矩阵相乘
+c2 = np.dot(a, b)
 
-# print(c)
+# # print(c)
+print(c2)
 print(c_dot)
 
 # 0-1两行四列的随机矩阵
