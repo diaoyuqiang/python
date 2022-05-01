@@ -31,6 +31,14 @@ text = "逗2B最逗3B欢乐"
 data3 = re.match("逗\\dB", text)
 print(data3.group())
 
+print("*" * 20)
+txt = "friday:186"
+r = re.match("friday:(.*)(\\d)", txt)  # ():进行分组,match匹配不到返回None
+if r is None:
+    print("NOT")
+else:
+    print(r.group(1))
+
 # sub 方法替换匹配成功的位置
 text = "逗2B最逗3B欢乐"
 data4 = re.sub("逗\\dB", "沙雕", text)
@@ -41,6 +49,9 @@ text = "逗2B最逗3B欢乐"
 data5 = re.split("逗\\dB", text, 1)
 print(data5)
 
+# l = []
+# if not l:
+#     print("l")
 
 # 数据格式校验 开始位置 ^ 结束位置 $
 text1 = input("请输入邮箱：")

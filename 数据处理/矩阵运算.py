@@ -15,7 +15,7 @@ a = np.array([[1, 1],
               [2, 3]])
 b = np.arange(4).reshape(2, 2)
 print(a)
-print(b)
+print("b:", b)
 print('*' * 50)
 # c = a * b  # 元素相乘
 c_dot = a.dot(b)  # 矩阵相乘
