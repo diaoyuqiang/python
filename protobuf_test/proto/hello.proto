@@ -1,0 +1,6 @@
+syntax = "proto3";  //固定语法格式
+
+//message: 消息体
+message HelloRequest {
+string name = 1;  //消息内容字段  name的index为1
+}

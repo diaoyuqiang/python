@@ -10,6 +10,7 @@ def thread_maker(func):
         t = threading.Thread(target=func, args=args)
         t.setDaemon(True)
         t.start()
+        print("1")
         return t
 
     return runner

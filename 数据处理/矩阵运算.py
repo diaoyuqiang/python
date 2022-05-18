@@ -18,7 +18,8 @@ print(a)
 print("b:", b)
 print('*' * 50)
 # c = a * b  # 元素相乘
-c_dot = a.dot(b)  # 矩阵相乘
+# 矩阵相乘的条件: 第一个矩阵的列数等于第二个矩阵的行数
+c_dot = a.dot(b)  # 矩阵相乘(前行乘后列)
 c2 = np.dot(a, b)
 
 # # print(c)
