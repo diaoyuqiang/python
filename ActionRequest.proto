@@ -1,0 +1,51 @@
+// [开始声明]
+syntax = "proto3";
+//定义protobuf的包名称空间
+package message;
+// [结束声明]
+// [开始 java 选项配置]
+option java_package = "com.kc.phoenix.rms.proto.pbmessage";
+option java_outer_classname = "ActionRequestProto";
+// [结束 java 选项配置]
+// [开始 go 选项配置]
+option go_package = "../proto.pb;proto";
+// [结束 go 选项配置]
+// [开始 消息定义]
+message ActionRequest {
+  string robotCode = 1;
+  string msgId = 2;
+  bool isMoveFirst = 3;
+  string jobSn = 4;
+  message Move {
+    message SimplePoint {
+      string code = 1;
+      int32 x = 2;
+      int32 y = 3;
+    }
+    SimplePoint targetPoint = 1;
+    string equipmentPoint = 2;
+    string guidePoint = 3;
+     map<string,string> backups = 4;
+    message LineData {
+      string lineCode = 1;
+      message Position {
+        string pointCode = 1;
+        string lineCode = 2;
+        int32 x = 3;
+        int32 y = 4;
+      }
+      Position target = 2;
+      Position start = 3;
+      int32 robotHeading = 4;
+      int32 rackHeading = 5;
+    }
+    repeated LineData lineList = 5;
+  }
+  Move move = 5;
+  message Operation {
+    string name = 1;
+     map<string,string> params = 2;
+  }
+  Operation operation = 6;
+}
+// [结束 消息定义]

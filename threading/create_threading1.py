@@ -2,7 +2,8 @@ import threading
 
 
 def hi(num):
-    print('hello %s' % num)
+    return num
+    # print('hello %s' % num)
 
 
 if __name__ == '__main__':

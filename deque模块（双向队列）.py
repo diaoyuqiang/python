@@ -11,8 +11,8 @@ from collections import deque
 def tail(n):
     with open('text', 'r') as f:
         q = deque(f, n)
+        # q.remove("llll")  # 删除队列中的元素
         return q
-
 
 # 读取日志最后5行
 for line in tail(5):
