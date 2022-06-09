@@ -1,4 +1,4 @@
-import threading
+import threading_
 
 
 class SerialReadWrite(object):
@@ -9,7 +9,7 @@ class SerialReadWrite(object):
     """
 
     _instance = None
-    lock = threading.Lock()  # 获取线程lock
+    lock = threading_.Lock()  # 获取线程lock
 
     def __new__(cls, *args, **kwargs):
         """

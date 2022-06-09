@@ -1,6 +1,6 @@
 # coding=utf-8
 from queue import Empty, Queue
-from threading import Thread, Lock
+from threading_ import Thread, Lock
 
 
 class Event(object):

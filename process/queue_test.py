@@ -3,6 +3,7 @@ import time
 
 
 def fot(q):
+    print(id(q))
     time.sleep(1)
     q.put('123')
     q.put('iG')
@@ -15,5 +16,6 @@ if __name__ == '__main__':
     p.start()
 
     print("主进程")
+    print(id(q))
     print(q.get())
     print(q.get())

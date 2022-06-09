@@ -14,21 +14,34 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0bhello.proto\"\x1c\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0bhello.proto\"\x8e\x01\n\x0cHelloRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x39\n\x0estatisticsData\x18\x02 \x03(\x0b\x32!.HelloRequest.StatisticsDataEntry\x1a\x35\n\x13StatisticsDataEntry\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t:\x02\x38\x01\x62\x06proto3')
 
 
 
 _HELLOREQUEST = DESCRIPTOR.message_types_by_name['HelloRequest']
+_HELLOREQUEST_STATISTICSDATAENTRY = _HELLOREQUEST.nested_types_by_name['StatisticsDataEntry']
 HelloRequest = _reflection.GeneratedProtocolMessageType('HelloRequest', (_message.Message,), {
+
+  'StatisticsDataEntry' : _reflection.GeneratedProtocolMessageType('StatisticsDataEntry', (_message.Message,), {
+    'DESCRIPTOR' : _HELLOREQUEST_STATISTICSDATAENTRY,
+    '__module__' : 'hello_pb2'
+    # @@protoc_insertion_point(class_scope:HelloRequest.StatisticsDataEntry)
+    })
+  ,
   'DESCRIPTOR' : _HELLOREQUEST,
   '__module__' : 'hello_pb2'
   # @@protoc_insertion_point(class_scope:HelloRequest)
   })
 _sym_db.RegisterMessage(HelloRequest)
+_sym_db.RegisterMessage(HelloRequest.StatisticsDataEntry)
 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _HELLOREQUEST._serialized_start=15
-  _HELLOREQUEST._serialized_end=43
+  _HELLOREQUEST_STATISTICSDATAENTRY._options = None
+  _HELLOREQUEST_STATISTICSDATAENTRY._serialized_options = b'8\001'
+  _HELLOREQUEST._serialized_start=16
+  _HELLOREQUEST._serialized_end=158
+  _HELLOREQUEST_STATISTICSDATAENTRY._serialized_start=105
+  _HELLOREQUEST_STATISTICSDATAENTRY._serialized_end=158
 # @@protoc_insertion_point(module_scope)

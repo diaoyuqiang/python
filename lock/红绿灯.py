@@ -72,7 +72,7 @@ class Car(threading.Thread):
 
 if __name__ == '__main__':
 
-    s = Street(threading.Condition())  # 传入互斥锁对象
+    s = Street(threading.Condition())  # 传入条件变量对象
     p = Person(s, 'person')
     p.start()
 

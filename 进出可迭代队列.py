@@ -2,7 +2,7 @@
 import abc
 import time
 import queue
-from threading import Thread, Lock
+from threading_ import Thread, Lock
 
 
 class ClosableQueue(queue.Queue):

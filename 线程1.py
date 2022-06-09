@@ -1,4 +1,4 @@
-import threading
+import threading_
 import time
 
 
@@ -17,8 +17,8 @@ def fun2(thread_name, delay):
 if __name__ == '__main__':
     print("主进程执行")
     # 创建线程
-    t1 = threading.Thread(target=fun1, args=('thread1', 3))
-    t2 = threading.Thread(target=fun2, args=('thread2', 2))
+    t1 = threading_.Thread(target=fun1, args=('thread1', 3))
+    t2 = threading_.Thread(target=fun2, args=('thread2', 2))
     t1.start()
     t2.start()
     t1.join()

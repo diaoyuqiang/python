@@ -3,7 +3,7 @@ import json
 # 自定义字典类
 class AttrDict(dict):
     def __setattr__(self, key, value):  #设置实例属性
-        self.__setitem__(key, value)  # 键值存储
+        self.__setitem__(key, value)  # 键值存储a[key]==value
     def __getattr__(self, item):  # 实例属性查找
         return self.__getitem__(item)  # 实例对象a[key]取值法
 
@@ -55,3 +55,5 @@ if __name__ == "__main__":
     dic = {"name": "dyq", "age": 18}
     t = AttrDict(dic)
     print(t["name"], t.age)  # 同时支持字典取值法和对象取值法
+    del t.name  # 删除对象的属性
+    print(t)

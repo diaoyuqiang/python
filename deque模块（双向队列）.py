@@ -1,3 +1,4 @@
+import time
 from collections import deque
 
 # 双向队列
@@ -14,6 +15,11 @@ def tail(n):
         # q.remove("llll")  # 删除队列中的元素
         return q
 
-# 读取日志最后5行
+# 读取日志最后5行, 遍历双端队列
 for line in tail(5):
     print(line, end="")
+
+q = tail(5)
+print(q)
+q.popleft()
+print(q)
