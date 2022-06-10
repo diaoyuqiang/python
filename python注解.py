@@ -3,7 +3,7 @@ def demo(num:int, sr:str, n:'int>9'=10)->bool:
     print(num, sr, n)
     return True
 
-demo(1, "dyq")
+demo(1, "dyq", 8)
 
 # TODO admin:dyq 高亮注释，可在project中查询
 # 打印函数注解

@@ -2,82 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68186bc5-58de-4b41-910e-0ff969429fc1" name="Changes" comment="dyq">
-      <change afterPath="$PROJECT_DIR$/__del__函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__enter__exit__管理上下文.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protocol解析成字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threading_/threading_Timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python注释.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deque模块（双向队列）.py" beforeDir="false" afterPath="$PROJECT_DIR$/deque模块（双向队列）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict_class1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict_class1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/lock_condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/lock/lock_condition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lock/红绿灯.py" beforeDir="false" afterPath="$PROJECT_DIR$/lock/红绿灯.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/process_pipe.py" beforeDir="false" afterPath="$PROJECT_DIR$/__call__ 实例函数化调用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/queue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf_test/clent_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf_test/clent_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf_test/proto/hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf_test/proto/hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protobuf_test/proto/hello_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/protobuf_test/proto/hello_pb2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/Lifoqueue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/Lifoqueue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/PriorityQueue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/PriorityQueue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/queue_other.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/queue_other.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/queue_task_done_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/queue_task_done_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/queue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/生产者和消费者模式.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/生产者和消费者模式.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/线程类获取result.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/线程类获取result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/线程队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/线程队列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/api_ceshi.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/api_ceshi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/res2.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/res2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/res_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/res_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/response_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/response_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/session_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/session_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/vdo_1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/request_/vdo_1.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request/爬取视频.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_/爬取视频.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/cmd_tcp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/cmd_tcp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/cmd_tcp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/cmd_tcp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/cmd_udp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/cmd_udp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/cmd_udp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/cmd_udp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/ntp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/ntp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/ntp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/ntp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp-udp总结.txt" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp-udp总结.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_client_forever.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_client_forever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_client_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_client_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_server_forever.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_server_forever.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/tcp_server_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/tcp_server_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/udp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/udp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/udp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/udp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/并发/tcp_client_while1.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/并发/tcp_client_while1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/并发/tcp_client_while2.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/并发/tcp_client_while2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/并发/tcp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/并发/tcp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/并发/udp_client1.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/并发/udp_client1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/并发/udp_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/并发/udp_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/粘包处理/cmd_tcp_client_solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/粘包处理/cmd_tcp_client_solve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/粘包处理/cmd_tcp_server_solve.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/粘包处理/cmd_tcp_server_solve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/threading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/threading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/create_threading1.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/create_threading1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/create_threading2.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/create_threading2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/ob.txt" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/ob.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/thread_wraps.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/thread_wraps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_client2.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_client2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_others.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_others.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_rfw.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_rfw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threading/threading_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/assertEqual.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_/assertEqual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/mytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_/mytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_/测试.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/单例设计模式一.py" beforeDir="false" afterPath="$PROJECT_DIR$/单例设计模式一.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/生成4位验证码.py" beforeDir="false" afterPath="$PROJECT_DIR$/生成4位验证码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线程1.py" beforeDir="false" afterPath="$PROJECT_DIR$/线程1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/线程事件处理队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/线程事件处理队列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进出可迭代队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/进出可迭代队列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python注解.py" beforeDir="false" afterPath="$PROJECT_DIR$/python注解.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,29 +68,7 @@
       <recent name="D:\python_stu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.threading_Timer">
-    <configuration name="clent_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/protobuf_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/protobuf_test/clent_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.python注解">
     <configuration name="deque模块（双向队列）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +105,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lock/lock_condition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python注解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python注解.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python注解" />
         <item itemvalue="Python.threading_Timer" />
         <item itemvalue="Python.lock_condition" />
         <item itemvalue="Python.deque模块（双向队列）" />
         <item itemvalue="Python.queue_test" />
-        <item itemvalue="Python.clent_test" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +245,7 @@
       <workItem from="1654498994777" duration="382000" />
       <workItem from="1654513590098" duration="10684000" />
       <workItem from="1654615390350" duration="1951000" />
-      <workItem from="1654655618309" duration="9406000" />
+      <workItem from="1654655618309" duration="14377000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;测试1&quot;">
       <created>1635835443789</created>
@@ -502,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653553574476</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="dyq">
+      <created>1654764917696</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654764917696</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,6 +486,7 @@
     <SUITE FILE_PATH="coverage/python_stu$queue_task_done_1.coverage" NAME="queue_task_done_1 Coverage Results" MODIFIED="1652758244939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/python_stu$z3_reverse_test.coverage" NAME="z3_reverse_test Coverage Results" MODIFIED="1651466597682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$_np.coverage" NAME="伯恩斯坦系数_np Coverage Results" MODIFIED="1652686357285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$python.coverage" NAME="python注解 Coverage Results" MODIFIED="1654849563760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$format_str_test.coverage" NAME="format_str_test Coverage Results" MODIFIED="1653471301736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__del__.coverage" NAME="__del__函数 Coverage Results" MODIFIED="1653894439507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__.coverage" NAME="贝塞尔曲线(轨迹点) Coverage Results" MODIFIED="1652073649892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
