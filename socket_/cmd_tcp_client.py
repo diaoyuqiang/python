@@ -20,7 +20,8 @@ while True:
         break
 
     # 发送指令给服务端
-    cmd_client.send(cmd_msg.encode("utf-8"))
+    len = cmd_client.send(cmd_msg.encode("utf-8"))
+    print("len,ok:", len)
     # 接收服务端数据
     data = cmd_client.recv(200)
     print(data.decode("gbk"))

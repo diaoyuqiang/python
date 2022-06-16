@@ -16,4 +16,4 @@ while True:
     print(q.get())
     print(q.get())
     print(q.get())
-    print(q.get(block=False))  # 相当于q.get_nowait(): 队空报错，不阻塞
+    print(q.get(block=False))  # 相当于q.get_nowait(): 队空抛异常，不阻塞; timeout参数: 超时抛异常

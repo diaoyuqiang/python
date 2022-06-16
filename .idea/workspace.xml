@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68186bc5-58de-4b41-910e-0ff969429fc1" name="Changes" comment="dyq">
-      <change afterPath="$PROJECT_DIR$/python注释.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_object_attr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compile_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type_自定义元类_attrs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python注解.py" beforeDir="false" afterPath="$PROJECT_DIR$/python注解.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue_/queue_other.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/queue_other.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket_/cmd_tcp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket_/cmd_tcp_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading_/threading_others.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_others.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threading_/threading_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/threading_/threading_sample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +73,8 @@
       <recent name="D:\python_stu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python注解">
-    <configuration name="deque模块（双向队列）" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.class_object_attr">
+    <configuration name="class_object_attr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,7 +87,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deque模块（双向队列）.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_object_attr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lock_condition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cmd_tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,12 +104,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socket_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lock/lock_condition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socket_/cmd_tcp_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +118,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python注解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cmd_tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socket_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socket_/cmd_tcp_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue_other" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_stu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/queue_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queue_/queue_other.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settrace_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,51 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python注解.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="queue_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/process" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/process/queue_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threading_Timer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_stu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading_" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading_/threading_Timer.py" />
+      <option name="SCRIPT_NAME" value="D:\python_learn\settrace_dir\settrace_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.python注解" />
-        <item itemvalue="Python.threading_Timer" />
-        <item itemvalue="Python.lock_condition" />
-        <item itemvalue="Python.deque模块（双向队列）" />
-        <item itemvalue="Python.queue_test" />
+        <item itemvalue="Python.class_object_attr" />
+        <item itemvalue="Python.queue_other" />
+        <item itemvalue="Python.cmd_tcp_client" />
+        <item itemvalue="Python.cmd_tcp_server" />
+        <item itemvalue="Python.settrace_test" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +250,9 @@
       <workItem from="1654498994777" duration="382000" />
       <workItem from="1654513590098" duration="10684000" />
       <workItem from="1654615390350" duration="1951000" />
-      <workItem from="1654655618309" duration="14377000" />
+      <workItem from="1654655618309" duration="20113000" />
+      <workItem from="1655087691937" duration="9171000" />
+      <workItem from="1655260305322" duration="6195000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;测试1&quot;">
       <created>1635835443789</created>
@@ -436,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654764917696</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="dyq">
+      <created>1654849647617</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654849647617</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,11 +478,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_stu$get__format.coverage" NAME="字典的get()，字符串format Coverage Results" MODIFIED="1653557971847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$threading_sample.coverage" NAME="threading_sample Coverage Results" MODIFIED="1655087861156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading_" />
     <SUITE FILE_PATH="coverage/python_stu$__getattr__test1.coverage" NAME="__getattr__test1 Coverage Results" MODIFIED="1651886813033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_stu$create_threading2.coverage" NAME="create_threading2 Coverage Results" MODIFIED="1652714611547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/python_stu$create_threading2.coverage" NAME="create_threading2 Coverage Results" MODIFIED="1655022866888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading_" />
     <SUITE FILE_PATH="coverage/python_stu$clent_test.coverage" NAME="clent_test Coverage Results" MODIFIED="1654080402286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/protobuf_test" />
     <SUITE FILE_PATH="coverage/python_stu$deque.coverage" NAME="deque模块（双向队列） Coverage Results" MODIFIED="1654618224158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$threading_Timer.coverage" NAME="threading_Timer Coverage Results" MODIFIED="1654746804448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading_" />
+    <SUITE FILE_PATH="coverage/python_stu$cmd_tcp_server.coverage" NAME="cmd_tcp_server Coverage Results" MODIFIED="1655187918593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket_" />
+    <SUITE FILE_PATH="coverage/python_stu$class_object_attr.coverage" NAME="class_object_attr Coverage Results" MODIFIED="1655273329093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$assert.coverage" NAME="assert断言 Coverage Results" MODIFIED="1650769237069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$collection.coverage" NAME="collection中的映射和可变序列 Coverage Results" MODIFIED="1652866893293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$zipfile_test1.coverage" NAME="zipfile_test1 Coverage Results" MODIFIED="1653031101568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -477,29 +494,34 @@
     <SUITE FILE_PATH="coverage/python_stu$Bit.coverage" NAME="取出单个Bit位对应的值 Coverage Results" MODIFIED="1652690282288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__enter__exit__.coverage" NAME="__enter__exit__管理上下文 Coverage Results" MODIFIED="1653896593317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$create_threading1.coverage" NAME="create_threading1 Coverage Results" MODIFIED="1653299005095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
+    <SUITE FILE_PATH="coverage/python_stu$queue_other.coverage" NAME="queue_other Coverage Results" MODIFIED="1655260369457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue_" />
     <SUITE FILE_PATH="coverage/python_stu$thread_wraps.coverage" NAME="thread_wraps Coverage Results" MODIFIED="1652715040931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
     <SUITE FILE_PATH="coverage/python_stu$queue_task_done_1__1_.coverage" NAME="queue_task_done_1 (1) Coverage Results" MODIFIED="1651818885430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/python_stu$list.coverage" NAME="反转list，切片方法 Coverage Results" MODIFIED="1652686121916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$super_getattribute_one.coverage" NAME="super_getattribute_one Coverage Results" MODIFIED="1652675077023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$typing_test.coverage" NAME="typing_test Coverage Results" MODIFIED="1649843032687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$compile_test.coverage" NAME="compile_test Coverage Results" MODIFIED="1655092366834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$protocol.coverage" NAME="protocol解析成字典 Coverage Results" MODIFIED="1653879211151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$queue_task_done_1.coverage" NAME="queue_task_done_1 Coverage Results" MODIFIED="1652758244939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/python_stu$z3_reverse_test.coverage" NAME="z3_reverse_test Coverage Results" MODIFIED="1651466597682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$_np.coverage" NAME="伯恩斯坦系数_np Coverage Results" MODIFIED="1652686357285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$python.coverage" NAME="python注解 Coverage Results" MODIFIED="1654849563760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$cmd_tcp_client.coverage" NAME="cmd_tcp_client Coverage Results" MODIFIED="1655188209647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket_" />
     <SUITE FILE_PATH="coverage/python_stu$format_str_test.coverage" NAME="format_str_test Coverage Results" MODIFIED="1653471301736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__del__.coverage" NAME="__del__函数 Coverage Results" MODIFIED="1653894439507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__.coverage" NAME="贝塞尔曲线(轨迹点) Coverage Results" MODIFIED="1652073649892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$dict_unicode.coverage" NAME="类dict_汉字转unicode编码 Coverage Results" MODIFIED="1645498830144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$intbyte.coverage" NAME="int转byte数组 Coverage Results" MODIFIED="1652673624495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$threading_others.coverage" NAME="threading_others Coverage Results" MODIFIED="1654856402760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading_" />
     <SUITE FILE_PATH="coverage/python_stu$__repr____str__.coverage" NAME="__repr__跟__str__的区别 Coverage Results" MODIFIED="1652861855536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="自定义异常类 Coverage Results" MODIFIED="1652862794985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$.coverage" NAME="字符串 Coverage Results" MODIFIED="1654858526800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$json_load_u_test.coverage" NAME="json_load_u_test Coverage Results" MODIFIED="1651126923217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$lock_condition.coverage" NAME="lock_condition Coverage Results" MODIFIED="1654680871203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lock" />
     <SUITE FILE_PATH="coverage/python_stu$__call___.coverage" NAME="__call__ 实例函数化调用 Coverage Results" MODIFIED="1653894336888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$queue_test.coverage" NAME="queue_test Coverage Results" MODIFIED="1654615838593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process" />
     <SUITE FILE_PATH="coverage/python_stu$tuple_name.coverage" NAME="tuple_name Coverage Results" MODIFIED="1649730030068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$dict_class1.coverage" NAME="dict_class1 Coverage Results" MODIFIED="1653903266652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$settrace_test.coverage" NAME="settrace_test Coverage Results" MODIFIED="1655092400681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$result.coverage" NAME="线程类获取result Coverage Results" MODIFIED="1651382972569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/python_stu$bezier_path.coverage" NAME="bezier_path Coverage Results" MODIFIED="1652091792089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/python_stu$gevent_.coverage" NAME="gevent_切换协程执行 Coverage Results" MODIFIED="1652714550734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

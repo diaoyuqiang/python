@@ -19,6 +19,7 @@ if __name__ == '__main__':
     t = threading.Thread(target=listen)  # 创建子线程
     # t.setDaemon(True)  # 设置该线程为守护线程，必须放在start之前
     t.start()
+    print("identifier:", t.ident)  # 线程id
 
     t1 = threading.Thread(target=game)  # 创建子线程
     # t1.setDaemon(True)  # 设置该线程为守护线程，必须放在start之前,主线程执行完t1结束
