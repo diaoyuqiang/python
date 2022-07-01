@@ -2,7 +2,6 @@ from socket import *
 import struct  # 封包，拆包
 
 ip_port = ("127.0.0.1", 5020)
-back_log = 5
 buf_size = 1024
 
 # 创建socket连接
@@ -36,7 +35,7 @@ while True:
     recv_msg = b''  # 字节码
 
     while recv_size < length:
-        recv_msg += cmd_client.recv(200)
+        recv_msg += cmd_client.recv(1024)
         recv_size = len(recv_msg)
 
     print(recv_msg.decode("gbk"))

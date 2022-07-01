@@ -27,7 +27,7 @@ while True:
             关键字参数 | 位置参数
             arg 指令序列或指令字符串
             shell=False True为字符串 False为字节序列
-            stderr=None(返回错误通道信息) subprocess.PIPE 返回一个file，可以直接给客户端展示
+            stderr=None(返回错误通道信息) subprocess.PIPE - 管道保存标准输入/出/错误的数据，可以直接给客户端展示
             stdin=None(标准输入)
             stdout=None(标准输出)
             """

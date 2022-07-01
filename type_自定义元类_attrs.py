@@ -20,13 +20,11 @@ def exception_handle(func):
         try:
             return func(*args, **kwargs)
         except Exception as e:
-            print "捕获:{}".format(e)
+            print("捕获:{}".format(e))
 
     return inner
 
-class Car():
-    __metaclass__ = Agv
-
+class Car(metaclass=Agv):
     def __init__(self):
         self.age = 20
 
@@ -35,4 +33,4 @@ class Car():
 
 c = Car()
 c.run(1, 0)  # 被装饰的真实函数调用
-print c.name
+print(c.name)

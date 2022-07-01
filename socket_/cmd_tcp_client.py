@@ -20,6 +20,12 @@ while True:
         break
 
     # 发送指令给服务端
+    # buffer = b'admin'
+    # sendall(buffer)  # 尝试发送string的所有数据，成功则返回None，失败则抛出异常
+    # =
+    # while buffer:
+    #     len = send(buffer)  # send()的返回值是发送的字节数量，这个数量值可能小于要发送的string的字节数，也就是说可能无法发送string中所有的数据。如果有错误则会抛出异常
+    #     buffer = buffer[len:]
     len = cmd_client.send(cmd_msg.encode("utf-8"))
     print("len,ok:", len)
     # 接收服务端数据

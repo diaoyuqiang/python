@@ -11,6 +11,7 @@ import re  # 正则模块 regular expression
 """
 
 text= "dsf130429191912015219k13042919591219521XkkT"  # 正则表达式提取身份证号码
+print("re.serch:", re.search('\\w', text))  # 匹配整个字符串，并返回第一个成功的匹配。如果匹配失败，则返回None
 # finditer实现正则分组命名 (?P<名称>正则)
 data = re.finditer("\\d{6}(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})\\d{3}[\\dXx]", text)  # finditer 返回迭代器类型
 for i in data:

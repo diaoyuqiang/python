@@ -20,5 +20,6 @@ while True:
     try:
         q.get(block=True, timeout=1)  # 阻塞1秒取队列
     except Empty:  # 如果为空，pass掉，继续取
-        pass
+        print("empty")
+
 
