@@ -1,3 +1,4 @@
+import time
 from socket import *
 import subprocess  # 与系统交互的模块
 
@@ -42,7 +43,7 @@ while True:
             1.错误指令 返回错误通道信息
             2.正确指令 返回标准输出:
                 a.执行成功返回空，进行友好提示
-                B.执行成功 返回标准输出信息       
+                B.执行成功 返回标准输出信息
             """
             err_msg = cmb_result.stderr.read()  # 从错误通道获取信息
             if err_msg:  # 如果错误通道有数据，返回错误信息
@@ -54,7 +55,6 @@ while True:
             if not msg:
                 conn.send("执行成功".encode("gbk"))  # 返回客户端友好提示
                 continue
-
             conn.send(msg)
 
         except Exception as e:
