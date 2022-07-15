@@ -20,7 +20,7 @@ if __name__ == '__main__':
     t.setDaemon(True)  # 设置该线程为守护线程，必须放在start之前
     t.start()  # 启动线程活动
     print("线程名称:", t.name)  # 查看线程名称
-    # print(t.is_alive())  # 检查线程是否活动
+    print("alive", t.is_alive())  # 检查线程是否活动
     # print(t.getName())  # 返回线程名称
     # t.setName("我是线程1")  # 设置线程名称
     # print(t.getName())
