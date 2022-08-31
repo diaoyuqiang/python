@@ -22,18 +22,20 @@ outtab = "BCDEFGHIJKLMNOPQRSTUVWXYZAbcdefghijklmnopqrstuvwxyza1234567890"
 number = 1
 
 for line in sys.stdin:
-    s1 = ""
-    s2 = ""
-    a = line.strip()
+    # print(line)
+    lis = line.split()
+    for da in lis:
+        s1 = ""
+        s2 = ""
     # print(int(a[0]) + int(a[1]))
-    if number % 2 == 1:
-        for i in a:
-            if i in inttab:
-                s1 += outtab[inttab.index(i)]
-        print(s1)
-    else:
-        for i in a:
-            if i in outtab:
-                s2 += inttab[outtab.index(i)]
-        print(s2)
-    number = number + 1
+        if number % 2 == 1:
+            for i in lis[0]:
+                if i in inttab:
+                    s1 += outtab[inttab.index(i)]
+            print(s1)
+        else:
+            for i in lis[1]:
+                if i in outtab:
+                    s2 += inttab[outtab.index(i)]
+            print(s2)
+        number = number + 1

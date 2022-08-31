@@ -17,7 +17,7 @@ import sys
 def del_min_sr(sr):
     # 字符对应出现次数的字典
     dic_sr = {}
-    # 最小的出现次数
+    # sys.maxsize: py中数据类型变量的最大值
     minsr = sys.maxsize
     # 出现次数最少的字符列表
     lsr = []
@@ -35,14 +35,19 @@ def del_min_sr(sr):
             lsr.append(vo)
     for re in lsr:
         sr = sr.replace(re, '')
+        if sr == '':
+            print("字符串中所有字符出现的次数相同，删除全部")
     return sr
 
 
 while True:
     try:
-        _sr = input().split('\r')
+        _sr = input("请输入字符串: ").split(r'\r')
+        print(_sr)
         for i in _sr:
             print(del_min_sr(i))
 
-    except EOFError:
+    except EOFError as e:
+        print(e)  # ctrl+D:退出指令错误
+
         break

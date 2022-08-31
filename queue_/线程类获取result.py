@@ -19,6 +19,4 @@ t = Product(1)
 t.start()
 t.join()
 print(t.get_ret())  # 主线程捕获子线程返回的num
-
-
-
+# cache

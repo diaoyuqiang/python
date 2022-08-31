@@ -4,7 +4,7 @@ def func():  # 外部函数
     a = 1   # 外部函数作用域里的变量
     print("this is func")
 
-    def func1(num):  # 内部函数 闭包函数私有化了外部变量，完成了数据的封装，类似于面向对象
+    def func1(num):  # 内部函数 闭包函数的参数可以私有化外部函数作用域里的变量，可以直接访问，但不能修改值
         print("this is func1")
         print(num + a)
     return func1  # 返回闭包函数
