@@ -14,7 +14,7 @@
   <a href="https://github.com/Omooo/Android-Notes">
     <img src="https://img.shields.io/badge/🔥%20Android-Notes-brightness.svg"
   </a>  
-  <a href="https://github.com/Omooo">
+  <a href="https://github.com/diaoyuqiang">
     <img src="https://komarev.com/ghpvc/?username=Omooo&color=brightgreen" />
   </a>
   <a>
