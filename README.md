@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/🔥%20Android-Notes-brightness.svg"
   </a>  
   <a href="https://github.com/diaoyuqiang">
-    <img src="https://komarev.com/ghpvc/?username=Omooo&color=brightgreen" />
+    <img src="https://komarev.com/ghpvc/?username=dyq&color=brightgreen" />
   </a>
   <a>
     <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
