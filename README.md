@@ -5,13 +5,13 @@
     <img src="https://emojis.slackmojis.com/emojis/images/1563480763/5999/meow_party.gif" width="60" height="60" align="right"/> 
 </div>
 <p align="center">
-  <a href="https://github.com/Omooo">
+  <a href="https://github.com/diaoyuqiang">
     <img src="https://github-readme-stats.vercel.app/api?username=Omooo&show_icons=true&line_height=21&show_icons=true&theme=vue" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Omooo/Android-Notes">
+  <a href="https://github.com/diaoyuqiang/Android-Notes">
     <img src="https://img.shields.io/badge/🔥%20Android-Notes-brightness.svg"
   </a>  
   <a href="https://github.com/diaoyuqiang">
