@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68186bc5-58de-4b41-910e-0ff969429fc1" name="Changes" comment="dyq">
-      <change afterPath="$PROJECT_DIR$/all_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chr_c_format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_open_close_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_test_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filedemo/a_test/basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filedemo/a_test/many.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filedemo/a_test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frozen_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func_123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/func_file_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gc_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instance_test_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memory_profiler_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy_slice_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pprint_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/set_test_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slots_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_class_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_save.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_save_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/闭包test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dantic_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py泛型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sys_pypath_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process/协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/process/协程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue_/线程类获取result.py" beforeDir="false" afterPath="$PROJECT_DIR$/queue_/线程类获取result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traceback_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/traceback_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机考/t17.py" beforeDir="false" afterPath="$PROJECT_DIR$/机考/t17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机考/t18.py" beforeDir="false" afterPath="$PROJECT_DIR$/机考/t18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机考/t19.py" beforeDir="false" afterPath="$PROJECT_DIR$/机考/t19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/闭包.py" beforeDir="false" afterPath="$PROJECT_DIR$/闭包.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,7 +83,7 @@
       <recent name="D:\python_stu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pprint_test">
+  <component name="RunManager" selected="Python.dantic_test">
     <configuration name="all_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numpy_slice_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dantic_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +141,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpy_slice_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dantic_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_save_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="py泛型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,7 +185,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_save_.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py泛型.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dantic_test" />
+        <item itemvalue="Python.py泛型" />
         <item itemvalue="Python.pprint_test" />
         <item itemvalue="Python.all_test" />
         <item itemvalue="Python.class_test_str" />
-        <item itemvalue="Python.numpy_slice_" />
-        <item itemvalue="Python.test_save_" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +280,7 @@
       <workItem from="1660271164361" duration="1243000" />
       <workItem from="1660282789865" duration="5830000" />
       <workItem from="1660560072345" duration="30439000" />
-      <workItem from="1661739492807" duration="5299000" />
+      <workItem from="1661739492807" duration="11649000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;测试1&quot;">
       <created>1635835443789</created>
@@ -544,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659583037417</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="dyq">
+      <created>1661911911907</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661911911907</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,6 +568,7 @@
     <SUITE FILE_PATH="coverage/python_stu$instance_test_.coverage" NAME="instance_test_ Coverage Results" MODIFIED="1660632819872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$global_var_test.coverage" NAME="global_var_test Coverage Results" MODIFIED="1656302268594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$type__attrs.coverage" NAME="type_自定义元类_attrs Coverage Results" MODIFIED="1655346471763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$dantic_test.coverage" NAME="dantic_test Coverage Results" MODIFIED="1662011588727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$chr_c_format.coverage" NAME="chr_c_format Coverage Results" MODIFIED="1659695291068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$food_test.coverage" NAME="food_test Coverage Results" MODIFIED="1656661468467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$tcp_client_while.coverage" NAME="tcp_client_while Coverage Results" MODIFIED="1658228753365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket_" />
@@ -594,7 +578,7 @@
     <SUITE FILE_PATH="coverage/python_stu$frozen_set.coverage" NAME="frozen_set Coverage Results" MODIFIED="1660722227548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$__add__test.coverage" NAME="__add__test Coverage Results" MODIFIED="1657263811595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$all_test.coverage" NAME="all_test Coverage Results" MODIFIED="1661767390280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_stu$pprint_test.coverage" NAME="pprint_test Coverage Results" MODIFIED="1661911487561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$pprint_test.coverage" NAME="pprint_test Coverage Results" MODIFIED="1661911829158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$class_object_attr.coverage" NAME="class_object_attr Coverage Results" MODIFIED="1655273329093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$clent_test.coverage" NAME="clent_test Coverage Results" MODIFIED="1659514786755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/protobuf_test" />
     <SUITE FILE_PATH="coverage/python_stu$queue_test1.coverage" NAME="queue_test1 Coverage Results" MODIFIED="1651818367074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
@@ -610,6 +594,7 @@
     <SUITE FILE_PATH="coverage/python_stu$queue_task_done_1.coverage" NAME="queue_task_done_1 Coverage Results" MODIFIED="1652758244939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/queue" />
     <SUITE FILE_PATH="coverage/python_stu$origin_resp_test.coverage" NAME="origin_resp_test Coverage Results" MODIFIED="1659322121158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/request_" />
     <SUITE FILE_PATH="coverage/python_stu$trace_func.coverage" NAME="trace_func Coverage Results" MODIFIED="1660012071407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_stu$py.coverage" NAME="py泛型 Coverage Results" MODIFIED="1662003690422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$semaphore.coverage" NAME="semaphore Coverage Results" MODIFIED="1658807087403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lock" />
     <SUITE FILE_PATH="coverage/python_stu$z3_reverse_test.coverage" NAME="z3_reverse_test Coverage Results" MODIFIED="1651466597682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_stu$format_str_test.coverage" NAME="format_str_test Coverage Results" MODIFIED="1653471301736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
