@@ -56,7 +56,7 @@ print("{:<8}".format(211))  # 默认空格填充，返回8位，左对齐
 print("{:#<8}".format(211))  # 指定填充字符
 print("{:,.2f}".format(12345.5678))  # 千分位取整，保留2位小数
 print("{0[0]}, {0[1]}".format(["小白", 18]))  # 访问列表元素
-print("int: {0:d}, hex: {0:x}, oct: {0:o}, bin: {0:b}".format(27))  # 转换进制
+print("int: {0:d}, hex: {0:x}, oct: {0:o}, bin: {0:08b}".format(27))  # 转换进制
 
 # f字符串格式化
 name = "Tom"
