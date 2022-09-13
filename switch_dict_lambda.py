@@ -39,11 +39,11 @@ for case in Switch(v):
         print("something else")
 
 # python *arg:将参数打包成元祖 **kwargs:打包成dict
-# def run(*args):
-#     a = False
-#     b = "ten"
-#     if a or b in args:
-#         print(args)
-#         return True
-#
-# print(run("ten"))
+def run(*args):
+    a = False
+    b = "ten"
+    if a or b in args:
+        print(args)
+        return True
+
+print(run("ten"))
