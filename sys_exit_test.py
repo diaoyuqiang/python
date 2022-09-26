@@ -4,7 +4,7 @@ import sys
 def f1(str):
     global sports
     if str.upper() == "EXIT":
-        # sys.exit: 抛出SystemExit异常，主线程退出程序
+        # sys.exit: 抛出SystemExit异常，退出程序
         sys.exit("User exit")  # args除0外为异常退出
 
     else:

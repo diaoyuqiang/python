@@ -5,8 +5,8 @@ uuid1():
 uuid4():
 生成一个随机UUID。
 """
-
 import uuid
 
-a = uuid.uuid1()
-print(a)
+print(uuid.uuid1())
+
+

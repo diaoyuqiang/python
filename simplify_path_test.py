@@ -21,7 +21,7 @@ class Solution:
 
 
 s = Solution()
-sp = s.simplifyPath('/home//foo/')  # 跟目录简化
+sp = s.simplifyPath('/home//foo/')  # 根目录简化
 print(sp)
 
 # r = [1]
