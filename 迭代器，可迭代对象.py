@@ -23,7 +23,7 @@ class It(object):
 obj1 = It()  # 迭代器对象
 q = obj1.__next__()
 q1 = next(obj1)  # next()直接调用__next__
-print(q, q1)
+# print(q, q1)
 
 obj2 = It()
 for q in obj2:  # 首先会执行__iter__方法并获取返回值，然后反复执行next(对象)

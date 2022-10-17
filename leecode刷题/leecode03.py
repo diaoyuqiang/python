@@ -18,3 +18,4 @@ for i in range(2, n+1):  # 使用for循环遍历区间[2,n]
 #     print(i, type(i))  # i:int
 
 # print(int(pow(5, 0.5)) + 1)
+# print(int(1.87))

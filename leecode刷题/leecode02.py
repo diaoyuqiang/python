@@ -9,7 +9,7 @@ b = "000"
 # print(a+b)
 c = a + b
 
-print(int(c, 2))
+print(int(c, 2))  # 转化为10进制整数
 
 
 # n = int(input("整数n:"))
