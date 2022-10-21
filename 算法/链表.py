@@ -31,5 +31,5 @@ def print_lklist(lk):
         lk = lk.next
 
 
-lk = create_lklist_tail([1,2,3,4])
+lk = create_lklist_head([1,2,3,4])
 print_lklist(lk)

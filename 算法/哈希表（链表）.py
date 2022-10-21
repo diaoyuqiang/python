@@ -4,7 +4,7 @@ class LinkList:
             self.item = item
             self.next = None
 
-    class LinkListIterator:  # 创建链表迭代器
+    class LinkListIterator:  # 链表迭代器
         def __init__(self, node):
             self.node = node
 
@@ -75,8 +75,9 @@ class HashTable:
 ht = HashTable()
 ht.insert(0)
 ht.insert(1)
-ht.insert(3)
-ht.insert(102)
-print(','.join(map(str, ht.T)))
+# ht.insert(3)
+ht.insert(101)
+print(ht.T)
+# print(','.join(map(str, ht.T)))
 # print(",".join(map(str, ht.T)))
 # print(ht.find(202))
