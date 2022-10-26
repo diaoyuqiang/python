@@ -29,3 +29,14 @@ print(f1())
 print(f2())
 print(f3())
 print(count())
+
+# def chunks(get, n):
+#     return [get[i:i + n] for i in range(0, len(get), n)]
+#
+# print(chunks([0,1,2,3,4,5,6], 2))
+#
+# a = [0,1,2,3,4,5,6]
+# print(a[6:15])  # 列表切片操作允许超出索引范围
+
+
+
