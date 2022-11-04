@@ -1,4 +1,5 @@
 import os
+import json
 from os import getenv
 
 # 获取系统环境变量
@@ -23,3 +24,10 @@ print(os.path.abspath(__file__))  # 查看此文件的绝对路径
 
 # 复制文件
 os.system("copy 1.txt test.txt")  # 给出复制提示
+
+dic = {'name': 'dyq', 'age': 18
+       }
+
+with open('text', 'w') as f:
+    json.dump(dic, f, ensure_ascii=False, indent=4, separators=(',', ': '))  # 默认输出ascii码，False输出中文; indent: 非0按照数据格式缩进
+    os.fsync(f)  # 强制将带有文件描述符的文件写入磁盘
