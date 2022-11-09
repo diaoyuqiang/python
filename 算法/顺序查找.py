@@ -9,3 +9,4 @@ def linear_search(li, var):
 
 # result = linear_search(list, "02")
 # print(result)
+

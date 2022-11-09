@@ -11,3 +11,6 @@ def insert_sort(li):
 li = [3,2,5,14,25,6,10,8]
 insert_sort(li)
 print(li)
+
+# i = 2 val = 5
+# j = 1 val = 3
