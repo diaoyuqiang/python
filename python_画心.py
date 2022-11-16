@@ -11,5 +11,9 @@ for y in range(15, -15, -1):
     l2.append(''.join(l3))
 
 l1 = '\n'.join(l2)
+
 for i in l1:
-    print("\033[91m" + i, end="", flush=True)
+    print("\033[31m" + i, end="", flush=True)  # 红字
+
+# print('\033[31;42m输入错误\033[0m')     # 绿底红字
+# print('\033[31m输入错误\033[0m')     # 红字
