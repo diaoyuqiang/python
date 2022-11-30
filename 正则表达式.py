@@ -1,4 +1,6 @@
 import re  # 正则模块 regular expression
+import time
+
 """
 正则表达式：
 1.字符相关  使用[],等价于 |, []可以匹配范围[0-9][a-z][A-Z] 使用[^aix]反向匹配除了aix之外的字符;

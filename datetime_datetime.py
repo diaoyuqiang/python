@@ -26,6 +26,9 @@ print(dt, type(dt))
 dt = datetime.strptime("2021-10-08 10:34:38", "%Y-%m-%d %H:%M:%S").date()
 print(dt) # 2021-10-08
 
+delta = datetime.now() - datetime.strptime('14:39:23.299506', '%H:%M:%S.%f')
+# print(delta)
+print("delta.seconds", delta.seconds)  # 相差秒数
 # 分别获取日期和时间
 dt = datetime.today().date()
 print(dt)

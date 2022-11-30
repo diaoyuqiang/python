@@ -11,7 +11,7 @@ def my_print():
     print("hello world!")
 
 
-my_print()  # func1(my_print)()
+# my_print()  # func1(my_print)()
 
 
 # 带参数的装饰器
