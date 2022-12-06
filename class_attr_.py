@@ -13,3 +13,12 @@ print(Student.count)
 l3 = []
 list.append(l3, 1)  # 相当于l3.append()
 print(l3)
+
+dic = {}
+d = {"1": 1}
+# print(dic.update(d))
+dic.update(d)
+def run(d):
+    print(d)
+
+run(dic)
