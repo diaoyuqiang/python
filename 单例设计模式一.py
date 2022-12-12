@@ -19,7 +19,7 @@ class SerialReadWrite(object):
         :param kwargs:
         """
         import traceback
-        info = traceback.extract_stack()  # 从当前堆栈中获取异常回溯
+        info = traceback.extract_stack()  # 从当前堆栈中的traceback对象里获取异常回溯列表
         if cls._instance:  # 判断是否有实例
             return cls._instance
         else:

@@ -1,9 +1,11 @@
 import threading
 import time
+import traceback
 
 
 def listen():
     print('start to listen music..%s' % time.strftime('%X'))
+    print("listen pid: {}".format(threading.get_ident()))
     time.sleep(3)
     print('end to listen music..%s' % time.strftime('%X'))
 
@@ -33,6 +35,7 @@ if __name__ == '__main__':
     t1 = threading.Thread(target=game)  # 创建子线程
     t1.setDaemon(True)  # 设置该线程为守护线程，必须放在start之前,主线程执行完t1结束
     t1.start()
-
+    # traceback.format_exc()  # 提取堆栈中的异常信息字符串
+    print("traceback:", traceback.extract_stack())  # 从当前程序堆栈中的traceback对象里提取错误列表
     # t.join()  # 阻塞t线程，在t线程执行完之前它的主线程会被阻塞
     print('这是主线程......')
