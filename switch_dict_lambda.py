@@ -15,7 +15,10 @@ class Switch(object):
 
     def __iter__(self):
         yield self.match
-        raise StopIteration
+        try:
+            raise StopIteration
+        except StopIteration:
+            return
 
     def match(self, *args):  # 匹配函数
         if self.fall or not args:
@@ -31,12 +34,13 @@ for case in Switch(v):
         print("1")
         break
 
-    if case("ten"):
+    if case("ten1"):
         print("10")
         break
 
     if case():
         print("something else")
+        # break
 
 # python *arg:将参数打包成元祖 **kwargs:打包成dict
 def run(*args):

@@ -52,3 +52,5 @@ print(g.send("测试"))
 
 # close 关闭生成器
 g.close()
+
+print((i * 2for i in range(10)))  # 生成器对象，用next()调用
